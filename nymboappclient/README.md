@@ -1,6 +1,6 @@
 # nymboappclient
 
-Applicazione Clinet per NYMBO
+Nymbo App Client
 
 ## Getting Started
 
