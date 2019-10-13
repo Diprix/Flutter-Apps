@@ -7,8 +7,10 @@ import 'package:http/http.dart' as http;
 import 'package:nymboappclient/model/brano_model.dart';
 import 'package:nymboappclient/model/playlist_model.dart';
 import 'package:nymboappclient/routes/home/component/customtextfield.dart';
+import 'package:nymboappclient/routes/home/component/datastorage.dart';
 import 'package:nymboappclient/routes/home/component/itemcard.dart';
 import 'package:nymboappclient/routes/home/ui/playlist.dart';
+import 'package:nymboappclient/routes/home/ui/settings.dart';
 
 
 
@@ -16,16 +18,19 @@ import 'package:nymboappclient/routes/home/ui/playlist.dart';
 final path = 'https://nymbo.herokuapp.com/';
 
 
-//in home
+
 
 
 AudioPlayer audioPlayer = AudioPlayer();
 bool stato = false;
 String plaing = 'Titolo';
-String idUser = 'oscar';
+String idUser;
 
 
 class home extends StatefulWidget {
+
+  final CounterStorage storage;
+  home({Key key, @required this.storage}) : super(key: key);
 
   @override
   _homeState createState() => _homeState();
@@ -34,6 +39,15 @@ class home extends StatefulWidget {
 class _homeState extends State<home> {
   int _currentTabIndex = 0;
 
+  @override
+  void initState() {
+    super.initState();
+    widget.storage.readCounter().then((String value) {
+      setState(() {
+        idUser = value;
+      });
+    });
+  }
 
 
   @override

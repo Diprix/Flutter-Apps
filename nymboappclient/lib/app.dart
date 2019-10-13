@@ -1,6 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'package:nymboappclient/routes/auth/ui/loginpage.dart';
+import 'package:nymboappclient/routes/home/component/datastorage.dart';
+
 import 'package:nymboappclient/routes/home/ui/home.dart';
 import 'package:nymboappclient/routes/home/ui/settings.dart';
 
@@ -23,9 +27,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue,
           primaryColor: defaultTargetPlatform == TargetPlatform.iOS ? Colors.blue : null),
 
-      home: home(),
+      home: home(storage: CounterStorage()),
+
       routes: <String, WidgetBuilder>{
-        '/settings': (BuildContext context) => new Settings('Profilo'),
+        '/settings': (BuildContext context) => new Settings(storage: CounterStorage()),
+        '/users/panel': (BuildContext context) => new home(),
       },
 
     );
