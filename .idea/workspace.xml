@@ -2,67 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf99a95-f9bf-4a8a-8299-a6322dbe03d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nymboClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/kotlin/com/example/nymboapp/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nymboapp/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/kotlin/diprix/dileware/it/nymboappclient/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/kotlin/diprix/dileware/it/nymboappclient/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/icon/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/icon/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/R&amp;B.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/R&amp;B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/classica.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/classica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/country.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/country.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/cupo.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/cupo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/dance.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/dance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/disco.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/disco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/energy.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/energy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/funky.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/funky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/hip-hop.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/hip-hop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/jazz.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/jazz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/images/rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/images/rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/launcher/Default-568h@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/launcher/Default-568h@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/launcher/Default-667h@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/launcher/Default-667h@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/launcher/Default-736h@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/launcher/Default-736h@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/launcher/Default.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/launcher/Default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/assets/launcher/Default@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/assets/launcher/Default@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/model/brano_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/model/brano_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/model/playlist_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/model/playlist_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/component/customtextfield.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/component/customtextfield.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/component/detailedscreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/component/detailedscreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/component/itemcard.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/component/itemcard.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/component/songsitems.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/component/songsitems.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/ui/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/ui/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/ui/playlist.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/ui/playlist.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/lib/routes/home/ui/settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/lib/routes/home/ui/settings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nymboappclient/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nymbo/nymboapp/nymboappclient/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +101,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nymboapp/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,31 +116,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="nymboClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nymboClient" type="462c0819:PsiDirectoryNode" />
+              <item name="repos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nymboClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nymboClient" type="462c0819:PsiDirectoryNode" />
+              <item name="repos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
+              <item name="nymbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
+              <item name="nymbo" type="462c0819:PsiDirectoryNode" />
               <item name="nymboapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nymboClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nymboClient" type="462c0819:PsiDirectoryNode" />
+              <item name="repos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
+              <item name="nymbo" type="462c0819:PsiDirectoryNode" />
               <item name="nymboapp" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="nymboappclient" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,42 +182,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32960597" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Resources Explorer" weight="0.32960597" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32956383" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" weight="0.32960597" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nymboapp/lib/routes/userData.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nymboapp/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nymboapp/lib/routes/userData.dart" />
+    <entry file="file://$PROJECT_DIR$/nymboapp/lib/main.dart" />
   </component>
   <component name="masterDetails">
     <states>
