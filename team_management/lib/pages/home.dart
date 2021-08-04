@@ -24,7 +24,18 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(
+              child: Text('Testa'),
+            ),
+            ListTile(
+              title: Text('Menù 1'),
+            )
+          ],
+        ),
+      ),
     );
   }
 }

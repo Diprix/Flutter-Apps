@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:team_management/services/authservice.dart';
 import 'package:team_management/widgets/action_button.dart';
 
 import '../constants.dart';
@@ -135,7 +134,6 @@ class _LogInState extends State<LogIn> {
                         ),
 
                         GestureDetector(child: actionButton("Log In"), onTap: (){
-                          if (checkFields()) AuthService().signIn(email!, password!, context);
                         },),
 
                         SizedBox(

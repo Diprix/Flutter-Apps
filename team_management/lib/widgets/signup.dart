@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team_management/pages/error_handler.dart';
-import 'package:team_management/services/authservice.dart';
+
 import 'package:team_management/widgets/action_button.dart';
 
 import '../constants.dart';
@@ -156,12 +155,7 @@ class _SignUpState extends State<SignUp> {
 
                         GestureDetector(
                             onTap: () {
-                              if (checkFields())
-                                AuthService().signUp(email!, password!).then((userCreds) {
-                                  Navigator.of(context).pop();
-                                }).catchError((e) {
-                                  ErrorHandler().errorDialog(context, e);
-                                });
+
                             },
                             child: actionButton("Create Account")),
 
