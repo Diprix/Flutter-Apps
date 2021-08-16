@@ -20,19 +20,16 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="team_management">
-  <meta name="google-signin-client_id" content="219636452202-b29d38k1nc1o5lmfto90c0s5uf9v88kj.apps.googleusercontent.com">
-
+  <meta name="apple-mobile-web-app-title" content="wallets_manager">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>team_management</title>
+  <title>wallets_manager</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-
   <script>
     var serviceWorkerVersion = null;
     var scriptLoaded = false;
@@ -97,37 +94,5 @@
       loadMainDartJs();
     }
   </script>
-
-
-
-  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
-  <script src="main.dart.js" type="application/javascript"></script>
-
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-       https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
-
-  <script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyAn-o9PPl6tuTGRX8hXauAinXJAdIaoixA",
-    authDomain: "task-management-9f96f.firebaseapp.com",
-    projectId: "task-management-9f96f",
-    storageBucket: "task-management-9f96f.appspot.com",
-    messagingSenderId: "474949738325",
-    appId: "1:474949738325:web:25dc4bfaf95823b08e59dc",
-    measurementId: "G-QTZWTQTYW7"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 </body>
 </html>

@@ -225,12 +225,12 @@ class _SignUpViewState extends State<SignUpView> {
     );
   }
 
-  void onPhoneNumberChange(
+  /*void onPhoneNumberChange(
       String number, String internationalizedPhoneNumber, String isoCode) {
     setState(() {
       _phone = internationalizedPhoneNumber;
     });
-  }
+  }*/
 
   List<Widget> buildInputs() {
     List<Widget> textFields = [];
